@@ -151,7 +151,6 @@ import time
 from django.utils.http import cookie_date
 from django.utils.hashcompat import md5_constructor
 from django.core.urlresolvers import get_callable
-from django.contrib.sessions.backends.base import *
 from random import SystemRandom
 from django.conf import settings
 
