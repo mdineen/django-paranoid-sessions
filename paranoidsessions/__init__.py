@@ -149,7 +149,7 @@ __version__ = "0.2.0"
 import time
 
 from django.utils.http import cookie_date
-from django.utils.hashcompat import md5_constructor
+from hashlib import md5 as md5_constructor
 from django.core.urlresolvers import get_callable
 from random import SystemRandom
 from django.conf import settings
